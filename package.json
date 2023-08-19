@@ -1,0 +1,11 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "Learning Node From scratch once again",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohsin Munir",
+  "license": "ISC"
+}
