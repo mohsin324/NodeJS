@@ -9,9 +9,27 @@
 // __dirname 
 // console.log('dirName - - - > '+ __dirname);
 
-const fs = require('fs');
-if(!fs.existsSync()){
-    fs.mkdirSync('Hello.txt', 'utf-8')
-}
+// file module
+// const fs = require('fs');
+// setInterval(()=> {
+//     if(fs.existsSync("Hello.txt")){
+//         fs.writeFileSync('Hello.txt', 'This is File with extended line!!         ! ');    
+//         console.log('File modified');
+//     }else{
+//         console.log('file already exist!!!')
+//     }
+// }, 3000);
+// require('./module');
+// console.log(`In Index.js `)
 
-
+// let name = ['tim smith', 'shirley chisholm'];
+// let neName = [] 
+//  name.forEach(name => {
+//     neName.push(name.split(' '))
+// })
+// neName.flat().forEach(neName => {
+// console.log(neName.charAt(0).toUpperCase()+neName.slice(1))
+// // neName.push(neName.charAt(0).toUpperCase()+neName.slice(1))
+// })
+// // console.log(neName+' ne Name: ')
+// newName
